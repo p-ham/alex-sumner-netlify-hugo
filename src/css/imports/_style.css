@@ -1,0 +1,22 @@
+.ref-img {
+    border-radius: 50%;
+}
+
+.alex-sumner {
+    font-size: 3em;
+    text-decoration: none;
+}
+
+*, html {
+    font-family: 'Slabo 13px', serif;
+}
+
+.angebot-button {
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.angebot-button:hover {
+    text-decoration: underline;
+}

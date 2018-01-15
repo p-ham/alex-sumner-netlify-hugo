@@ -72,6 +72,13 @@
   background-color: var(--black);
 }
 
+.bg-fix-white {
+  padding: 0 var(--spacing-small);
+  & :first-child {
+    box-shadow: var(--spacing-small) 0 0 var(--white), -var(--spacing-small) 0 0 var(--white);
+  }
+}
+
 .bg-fix-primary {
   padding: 0 var(--spacing-small);
   & :first-child {

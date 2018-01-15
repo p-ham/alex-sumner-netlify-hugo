@@ -1,0 +1,7 @@
+<a href="{{ .Permalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise">
+    {{ if .Params.image }}<img class="ref-img w-100 h-auto" src="{{ .Params.image }}" alt="{{ .Title }}" />
+    {{ else }}<img class="ref-img w-100" src="./img/user.png" alt="{{ .Title }}" />{{ end }}
+    <h2 class="tc f3 b lh-title mb1 primary">{{ .Title }}</h2>
+    <p class="tc mb0">"{{ .Description }}"</p>
+</a>
+    
